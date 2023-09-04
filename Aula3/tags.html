@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+</head>
+
+<body>
+    <input type="text" placeholder="Informe seu nome aqui">
+
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+
+            <label>Gênero</label>
+            <br>
+            <label>masculino</label>
+            <input type="radio" name="genero" value="masculino" />
+            <label>feminino</label>
+            <input type="radio" name="genero" value="feminino" />
+            <label>outro</label>
+            <input type="radio" name="genero" value="outro" />
+            <br><br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome">
+            <br>
+            <label for="tamanhos">Tamanhos</label>
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+            <br><br>
+            <button type="submit">
+                Enviar
+            </button>
+        </fieldset>
+        <a href="paginas/receita.html">Link para a receita</a>
+        <a href="https://www.coderhouse.com.br"><img src="coderLogo.png" alt="Logo da coderhouse"></a>
+        <br>
+
+        <iframe src="paginas/receita.html" width=290 height=250>
+            Seu navegador nao suporta iframe
+        </iframe>
+
+        <iframe width="1424" height="651" src="https://www.youtube.com/embed/U3FhrDNJD_g"
+            title="10 cursos de Design Gráfico" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </form>
+
+</body>
+
+</html>
