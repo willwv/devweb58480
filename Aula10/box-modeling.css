@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.azul {
+    background-color: blue;
+    position: fixed;
+    z-index: 5;
+}
+.amarelo {
+    background-color: yellow;
+    position: fixed;
+    z-index: 5;
+}
+
+.item:first-child {
+    color: red;
+}
