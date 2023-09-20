@@ -1,0 +1,31 @@
+@font-face { 
+    font-family: "Mystery Quest"; 
+    src: url("MysteryQuest-Regular.ttf"); 
+} 
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.gato {
+    background-image: url("https://png.pngtree.com/png-clipart/20210126/ourmid/pngtree-cat-yellow-cute-cartoon-png-image_2803636.png");
+    width: 70%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    background-color: blue;
+}
+
+
+body{ 
+    font-family: "Mystery Quest", cursive; 
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+ }
+ 
