@@ -1,0 +1,82 @@
+p:hover {
+    font-size: 30px;
+    color: aqua;
+}
+
+p:active {
+    font-size: 60px;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+input:focus {
+    font-size: 60px;
+    background-color: blue;
+}
+
+li:first-child { 
+    color: orange; 
+}
+
+.item {
+    color: brown;
+}
+
+li:last-child { 
+    color: red; 
+}
+
+li:nth-child(3){ 
+    color: green; 
+}
+
+li:not(.item) {
+    font-size: 40px;
+}
+
+:checked {
+    background-color: aqua;
+}
+input[type="radio"]:checked {
+    margin-left: 25px;
+}
+
+input:disabled {
+    background: yellow;
+}
+
+input[type=email]:invalid {
+    background: orange;
+}
+
+input[type=email]:valid {
+    background: green;
+}
+
+input:required {
+    background: red;
+}
+
+p::first-line {
+    color: aquamarine;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+::placeholder {
+    color:blueviolet
+}
+
+p::selection {
+    color: red;
+    background: yellow;
+}
+
+ol li::marker {
+    color: red;
+}
