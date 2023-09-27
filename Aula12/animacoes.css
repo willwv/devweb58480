@@ -1,0 +1,109 @@
+* {
+    margin: 30px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    /* background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 5s; */
+}
+
+.gradienteL {
+    background-image: radial-gradient( green, blue);
+    transition: all 2s;
+}
+
+/* .gradienteL:hover {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    background-image: linear-gradient(to right, blue, green);
+} */
+
+input {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+img:hover {
+    animation-duration: 2s;
+    animation-name: rodar;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+
+
+@keyframes rodar {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    10% {
+        transform: rotate(40deg);
+    }
+
+    20% {
+        transform: rotate(60deg);
+    }
+
+    30% {
+        transform: rotate(80deg);
+    }
+
+    40% {
+        transform: rotate(100deg);
+    }
+
+    50% {
+        transform: rotate(120deg);
+    }
+
+    60% {
+        transform: rotate(140deg);
+    }
+
+    65% {
+        transform: rotate(160deg);
+    }
+
+    70% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(200deg);
+    }
+
+    80% {
+        transform: rotate(250deg);
+    }
+
+    85% {
+        transform: rotate(300deg);
+    }
+
+    90% {
+        transform: rotate(330deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
