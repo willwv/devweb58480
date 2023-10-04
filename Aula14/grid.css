@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(3, 60px);
+
+    grid-template-areas: 
+    "verde verde azul azul azul"
+    "verde verde laranja laranja musgo"
+    "rosa rosa laranja laranja marrom";
+
+    gap:10px;
+}
+
+#verde {
+    background-color: green;
+    grid-area: verde;
+}
+
+#rosa {
+    background-color: pink;
+    grid-area: rosa;
+}
+
+#azul {
+    background-color: lightblue;
+    grid-area: azul;
+}
+
+#laranja {
+    background-color: orange;
+    grid-area: laranja;
+}
+
+#musgo {
+    background-color: rgb(34, 14, 14);
+    grid-area: musgo;
+}
+
+#marrom {
+    background-color: brown;
+    grid-area: marrom;
+}
+
+div {
+    border-radius: 10px;
+}
