@@ -1,0 +1,89 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: RobotoSlab;
+}
+
+#first-section {
+    margin: 32px 320px;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    flex-grow: 2;
+}
+
+header ul li {
+    padding: 0px 8px;
+}
+
+header ul li a {
+    color: #C12A21;
+    text-decoration: none;
+}
+
+header ul li:first-child {
+    border-right: 1px solid #C12A21;
+    padding-left: 48px;
+}
+
+header button {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding: 9px 25px;
+    border-radius: 10px;
+    background: #782376;
+    color: #FFF;
+}
+
+header button:hover{
+    cursor: pointer;
+}
+
+header button img {
+    padding-right: 10px;
+}
+
+#first-section nav {
+    margin: 24px 0px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #C12A21;
+    border-radius: 10px;
+}
+
+nav ul li{
+    padding: 17px 24px;
+}
+
+nav ul li:not(:last-child){
+    border-right: solid 1px #F5F5F5;;
+}
+
+nav ul li a{
+    color: #FFD9D9;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img{
+    padding-right: 6px;
+}
