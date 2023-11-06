@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#personagens_info_paginas{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#page_personagens_control img {
+    width: 10px; height: 10px;
+}
+.personagens_paginas_btn {
+    border-radius: 5px;
+    cursor: pointer;
+}
+#personagem_input_name{
+    border-radius: 10px;
+    text-align: center;
+}
+
+#page_personagens {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+    grid-template-areas: 
+    "control main .";
+}
+
+#page_personagens_control {
+    position: fixed;
+    padding: 10px;
+    height: 80px;
+    margin-top: 125px;
+    border: solid 1px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: control;
+}
+
+#personagens {
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    grid-area: main;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px black;
+}
+
+nav > img {
+    max-height: 100px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav > ul > li:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.personagem {
+    border-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    max-width: 620px;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+.personagem_image {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.personagem_basicInfo {
+    padding-left: 10px;
+}
+
+.pesonagem_episodios {
+    padding-top: 10px;
+}
+
+.green_rounded {
+    width: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #97ce4c;
+    color: white;
+}
+
+.green_rounded:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    border: solid 1px black;
+}
+
+#imgpos {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    width: 500px;
+    height: 500px;
+    background-color: #97ce4c;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <link href="ram.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img src="images/ram-logo.png">
+        <ul>
+            <li>
+                <h3>Personagens</h3>
+            </li>
+            <li>
+                <h3>Episodios</h3>
+            </li>
+            <li>
+                <h3>Lugares</h3>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="page_personagens">
+        <aside id="page_personagens_control">
+            <h5>Encontrar personagem por nome:</h5>
+            <span>
+                <input id="personagem_input_name" type="text" placeholder="Nome do personagem">
+                <button id="personagem_input_btn" class="green_rounded">
+                    <img src="images/search-icon.svg">
+                </button>
+            </span>
+            <h4 id="personagens_quantidade">Exibindo 20 de 200 personagens</h4>
+            <section id="personagens_info_paginas">
+                <button id="personagens_paginas_btnprev" class="green_rounded">
+                    <img src="images/left-arrow.svg">
+                </button>
+                <h5 id="personagens_paginas_quantidade">Pagina 1 de 20</h5>
+                <button id="personagens_paginas_btnnxt" class="green_rounded">
+                    <img src="images/right-arrow.svg">
+                </button>
+            </section>
+        </aside>
+        <main id="personagens">
+            <!-- <span id="rick" class="personagem">
+                <img class="personagem_image" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg">
+                <span class="personagem_basicInfo">
+                    <h2>Rick Sanchez</h2>
+                    <p>Nascido em: Earth (C-137)</p>
+                    <p>Visto pela última vez em: Citadel of Ricks</p>
+                    <section class="pesonagem_episodios">
+                        <h2>Episódios em que Rick Sanchez aparece</h2>
+                        <button class="green_rounded">1</button>
+                        <button class="green_rounded">2</button>
+                        <button class="green_rounded">3</button>
+                        <button class="green_rounded">4</button>
+                        <button class="green_rounded">5</button>
+                    </section>
+                </span>
+            </span>-->
+        </main>
+        <!-- <div id="imgpos">
+            <h1>Episodio 54</h1>
+        </div> -->
+    </section>
+    <script src="ram.js"></script>
+</body>
+
+</html>
